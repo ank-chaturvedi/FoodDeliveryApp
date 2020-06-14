@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/llMenuContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/txtItemId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.5"
+
+            android:paddingStart="2dp"
+            android:text="10"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.3">
+
+            <TextView
+                android:id="@+id/txtItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Baco Indian"
+                android:textColor="#282727"
+                android:textFontWeight="1"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtItemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtItemName"
+                android:layout_marginTop="4dp"
+                android:text="Rs. 100"
+                android:textFontWeight="1"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1.2"
+            android:background="@drawable/add_button_shape"
+            android:text="Add"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6"
+       >
+
+        <ImageView
+            android:id="@+id/imgRestaurant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+
+            android:layout_weight="2"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.4"
+
+            >
+
+            <TextView
+                android:id="@+id/txtFoodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Pind Tadka"
+                android:textColor="#0E0D0D"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtCostPerPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFoodName"
+                android:padding="10dp"
+                android:text="Rs.100 For One"
+                android:textSize="16sp"
+                android:textColor="#413434" />
+
+            <TextView
+                android:id="@+id/txtRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCostPerPerson"
+                android:padding="10dp"
+                android:text="4.5"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_star"
+                android:drawablePadding="5dp"
+                />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgFavourite"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:src="@drawable/favorite_unchecked"
+            android:layout_below="@id/txtFoodName"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:layout_weight=".6"
+            android:layout_gravity="bottom"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

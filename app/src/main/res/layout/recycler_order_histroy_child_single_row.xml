@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imgRemoveItem"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/remove_item"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignTop="@id/txtItemName"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="item name"
+        android:padding="10dp"
+        android:id="@+id/txtItemName"
+        android:layout_toRightOf="@id/imgRemoveItem"
+        android:textSize="18sp"
+        android:textColor="@color/colorLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 100"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:id="@+id/txtPrice"
+        android:textSize="18sp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/colorLabel"
+        />
+
+</RelativeLayout>

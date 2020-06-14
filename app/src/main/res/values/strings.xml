@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Comida</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_user_name">Enter your Name</string>
+    <string name="delivery_address">Enter Delivery Address</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_delivery_address">Delivery Address</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="login_shared_preference">Login Preference</string>
+    <string name="home">Home</string>
+    <string name="my_profile">my profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="user_name">User Name</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="closed_drawer">Close Drawer</string>
+    <string name="login_details_preference">Details Preference</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="submit">submit</string>
+    <string name="next">Next</string>
+    <string name="otp">Otp</string>
+    <string name="login_preference">Login Preference</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_now_btn_txt">Don\'t have account?Sign up now</string>
+    <string name="app_slogan">Home made food</string>
+</resources>

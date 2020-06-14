@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/imgUserAvatar"
+        android:layout_width="143dp"
+        android:layout_height="135dp"
+        android:src="@drawable/user_avatar_icon_png_transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgUserAvatar"
+        android:layout_margin="10dp"
+        android:id="@+id/rlName">
+    
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_person"
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imgPerson"
+        android:layout_alignTop="@id/txtHintName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/imgPerson"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:id="@+id/txtHintName"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankit Chaturvedi"
+        android:layout_below="@id/txtHintName"
+        android:layout_toRightOf="@id/imgPerson"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/colorBlack"
+            android:layout_below="@id/txtUserName"
+            android:layout_toRightOf="@id/imgPerson"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlName"
+        android:layout_margin="10dp"
+        android:id="@+id/rlMobile">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_call"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgPhone"
+            android:layout_alignTop="@id/txtHintPhone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@id/imgPhone"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:id="@+id/txtHintPhone"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtMobileNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 9829462183"
+            android:layout_below="@id/txtHintPhone"
+            android:layout_toRightOf="@id/imgPhone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/colorBlack"
+            android:layout_below="@id/txtMobileNo"
+            android:layout_toRightOf="@id/imgPhone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlMobile"
+        android:layout_margin="10dp"
+        android:id="@+id/rlAddress">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_location_on_black_18dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgAddress"
+            android:layout_alignTop="@id/txtHintAddress"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@id/imgAddress"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:id="@+id/txtHintAddress"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A-28 anand colony murlipura jaipur"
+            android:layout_below="@id/txtHintAddress"
+            android:layout_toRightOf="@id/imgAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/colorBlack"
+            android:layout_below="@id/txtEmail"
+            android:layout_toRightOf="@id/imgAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlAddress"
+        android:layout_margin="10dp"
+        android:id="@+id/rlEmail">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_mail"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgEmail"
+            android:layout_alignTop="@id/txtHintEmail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@id/imgEmail"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:id="@+id/txtHintEmail"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ankitsh123456@gmail.com"
+            android:layout_below="@id/txtHintEmail"
+            android:layout_toRightOf="@id/imgEmail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/colorBlack"
+            android:layout_below="@id/txtAddress"
+            android:layout_toRightOf="@id/imgEmail"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
