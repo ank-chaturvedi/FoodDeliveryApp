@@ -1,5 +1,6 @@
 # FoodDeliveryApp
 A food delivery app with minimal features.It's uses different api for different task.
+
 Includes:
   1. Login and Sign up using api.
   2. Showing all the restaurant and restaurant items using api.
